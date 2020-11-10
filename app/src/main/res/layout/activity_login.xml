@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+
+  <Button
+      android:id="@+id/btn_fb"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/facebook"
+      app:backgroundTint="#071B3E"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.511"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.32" />
+
+  <Button
+      android:id="@+id/btn_gmail"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/gmail"
+      app:backgroundTint="#050C37"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.489"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.519" />
+
+  <Button
+      android:id="@+id/btn_yt"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/youtube"
+      app:backgroundTint="#05113C"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.412" />
+
+  <Button
+      android:id="@+id/btn_ps"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/playstore"
+      app:backgroundTint="#0F1F4E"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.231" />
+
+  <Button
+      android:id="@+id/btn_google"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="80dp"
+      android:text="Google"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.496"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/btn_gmail" />
+</androidx.constraintlayout.widget.ConstraintLayout>

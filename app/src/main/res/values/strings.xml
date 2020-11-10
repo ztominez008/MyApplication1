@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">My Application</string>
+    <string name="welcome">Welcome!</string>
+    <string name="username">UserName</string>
+    <string name="TODO">Password</string>
+    <string name="log_In" tools:ignore="DuplicateDefinition">LOGIN</string>
+    <string name="Username">Username</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="cc17">CC17</string>
+    <string name="user_name">User Name</string>
+    <string name="login" translatable="false">LOGIN</string>
+    <string name="HelloWorld">HelloWorld</string>
+    <string name="facebook">Facebook</string>
+    <string name="gmail">Gmail</string>
+    <string name="youtube">Youtube</string>
+    <string name="playstore">PLaystore</string>
+</resources>
